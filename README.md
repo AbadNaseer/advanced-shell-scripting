@@ -152,7 +152,7 @@ chmod +x deploy.sh
 **Abad Naseer**  
 Full-stack Developer | DevOps Engineer  
 Fiverr & Upwork Verified Freelancer  
-[Connect on LinkedIn](https://linkedin.com/in/your-profile)
+[Connect on LinkedIn](https://linkedin.com/in/AbadNaseer)
 
 ---
 
