@@ -11,13 +11,20 @@ This folder includes various Bash scripts to:
 
 These scripts are written with modularity, error-handling, and real-world AWS usage in mind.
 
-> ⚠️ AWS CLI must be configured before using these scripts.
+> ⚠️ **Note:** AWS CLI must be configured before using these scripts.
 
 ## 🚀 Requirements
 - AWS CLI configured (`aws configure`)
 - IAM credentials with EC2 permissions
 - Bash / Linux environment
 
----
+## 🛠️ Makefile Included
 
-Use these scripts as a base for custom automation in real-world cloud workflows.
+You can now use the included `Makefile` to quickly run, test, lint, or clean your scripts.
+
+### 🔧 Available Commands:
+```bash
+make run     # Run all scripts in scripts/ folder
+make test    # Execute test suite (e.g. test_all.sh)
+make lint    # Run ShellCheck linter
+make clean   # Remove temporary files
